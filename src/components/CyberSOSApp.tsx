@@ -469,8 +469,7 @@ export default function CyberSOSApp({ onNavigate }: CyberSOSAppProps) {
               </Button>
               <Button
                 onClick={handleSOSActivation}
-                variant="outline"
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 rounded-lg font-medium text-lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg font-medium text-lg shadow-glow transition-all duration-300"
               >
                 <Hand className="w-6 h-6 mr-3" />
                 Manual Activation
