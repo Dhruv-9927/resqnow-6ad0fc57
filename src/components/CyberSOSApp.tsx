@@ -388,9 +388,9 @@ export default function CyberSOSApp({ onNavigate }: CyberSOSAppProps) {
             {communityAlerts.map((alert) => (
               <div key={alert.id} className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg hover:bg-muted/70 transition-colors">
                 <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${
-                  alert.severity === 'critical' ? 'bg-destructive/20 text-destructive' :
-                  alert.severity === 'high' ? 'bg-warning/20 text-warning' :
-                  'bg-primary/20 text-primary'
+                  alert.severity === 'critical' ? 'bg-orange-500/20 text-destructive' :
+                  alert.severity === 'high' ? 'bg-orange-500/20 text-warning' :
+                  'bg-orange-500/20 text-primary'
                 }`}>
                   <alert.icon className="w-5 h-5" />
                 </div>
