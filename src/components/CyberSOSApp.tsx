@@ -693,7 +693,7 @@ export default function CyberSOSApp({ onNavigate }: CyberSOSAppProps) {
                 </div>
                 <div>
                   <h1 className="text-xl font-bold">
-                    {currentScreen === "dashboard" && "Cyber SOS Dashboard"}
+                    {currentScreen === "dashboard" && "ResQnow Dashboard"}
                     {currentScreen === "cybersos" && "Emergency Response"}
                     {currentScreen === "protection" && "Account Protection"}
                     {currentScreen === "security" && "Security Features"}
